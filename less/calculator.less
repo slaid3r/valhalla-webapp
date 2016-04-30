@@ -1,0 +1,55 @@
+@import (reference) "./../node_modules/bootstrap-less/bootstrap/bootstrap.less";
+
+@border-color: darkgray;
+@company-color: #5e915d;
+@label-size: 5;
+
+.calculator {
+  .container;
+  background-color: whitesmoke;
+  border: 1px solid @border-color;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+}
+
+.calculator > .header {
+  .make-row();
+  background-color: @company-color;
+  color: white;
+  border-bottom: 1px solid @border-color;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.calculator > .header > .logo  {
+  display: block;
+  margin: 0 auto;
+}
+
+.calculator > .content {
+  .make-row();
+  padding-top: 15px;
+}
+
+.calculator > .content > form {
+  .make-md-column(12);
+  .form-horizontal;
+}
+
+.calculator > .content > form > .entry {
+  .make-row();
+  .form-group;
+}
+
+.calculator > .content > form > .entry > label {
+  .make-md-column(@label-size);
+}
+
+.calculator > .content > form > .entry > .input {
+  .make-md-column(4);
+}
+
+.calculator > .content > form > .entry > .input > input, select {
+  .form-control;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+    <head>
+        <script src="js/app.js"></script>
+        <title>Valhalla</title>
+    </head>
+
+    <body>
+        <div class="calculator">
+            <div class="header">
+                <img class="logo" src="img/x-logo.png">
+            </div>
+            <div class="content">
+                <form>
+                    <div class="entry">
+                        <label for="type" class="control-label">Hall type</label>
+                        <div class="input">
+                            <select id="type">
+                                <option>Type en</option>
+                                <option>Type to</option>
+                                <option>Type tre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <label for="width" class="control-label">Hall bredde</label>
+                        <div class="input">
+                            <input id="width" type="number">
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <label for="length" class="control-label">Hall lengde</label>
+                        <div class="input">
+                            <input id="length" type="number">
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <label for="height" class="control-label">Hall hoyde</label>
+                        <div class="input">
+                            <input id="height" type="number">
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <label for="windowsCount" class="control-label">Vinduer</label>
+                        <div class="input">
+                            <input id="windowsCount" type="number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-offset-5">
+                            <button type="submit" class="btn btn-primary">Kalkulere</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

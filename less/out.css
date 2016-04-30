@@ -1,0 +1,224 @@
+@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+.calculator:before,
+.calculator:after,
+.calculator .header:before,
+.calculator .header:after,
+.calculator .content:before,
+.calculator .content:after,
+.calculator .content form .form-group:before,
+.calculator .content form .form-group:after,
+.calculator .content form .entry:before,
+.calculator .content form .entry:after,
+.calculator .content form .entry:before,
+.calculator .content form .entry:after {
+  content: " ";
+  display: table;
+}
+.calculator:after,
+.calculator .header:after,
+.calculator .content:after,
+.calculator .content form .form-group:after,
+.calculator .content form .entry:after,
+.calculator .content form .entry:after {
+  clear: both;
+}
+.calculator {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: whitesmoke;
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .calculator {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .calculator {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .calculator {
+    width: 1170px;
+  }
+}
+.calculator > .navbar-header,
+.calculator > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .calculator > .navbar-header,
+  .calculator > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.calculator .header {
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: #5e915d;
+  color: white;
+  border-bottom: 1px solid darkgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.calculator .header .logo {
+  display: block;
+  margin: 0 auto;
+}
+.calculator .content {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-top: 15px;
+}
+.calculator .content form {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .calculator .content form {
+    float: left;
+    width: 100%;
+  }
+}
+.calculator .content form .radio,
+.calculator .content form .checkbox,
+.calculator .content form .radio-inline,
+.calculator .content form .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+.calculator .content form .radio,
+.calculator .content form .checkbox {
+  min-height: 27px;
+}
+.calculator .content form .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media (min-width: 768px) {
+  .calculator .content form .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+  }
+}
+.calculator .content form .has-feedback .form-control-feedback {
+  right: 15px;
+}
+@media (min-width: 768px) {
+  .calculator .content form .form-group-lg .control-label {
+    padding-top: 14.333333px;
+  }
+}
+@media (min-width: 768px) {
+  .calculator .content form .form-group-sm .control-label {
+    padding-top: 6px;
+  }
+}
+.calculator .content form .entry {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.calculator > .content > form > .entry > label {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .calculator > .content > form > .entry > label {
+    float: left;
+    width: 41.66666667%;
+  }
+}
+.calculator > .content > form > .entry > .input {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .calculator > .content > form > .entry > .input {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+.calculator > .content > form > .entry > .input > input,
+select {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.calculator > .content > form > .entry > .input > input:focus,
+select:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.calculator > .content > form > .entry > .input > input::-moz-placeholder,
+select::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.calculator > .content > form > .entry > .input > input:-ms-input-placeholder,
+select:-ms-input-placeholder {
+  color: #999;
+}
+.calculator > .content > form > .entry > .input > input::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+  color: #999;
+}
+.calculator > .content > form > .entry > .input > input[disabled],
+select[disabled],
+.calculator > .content > form > .entry > .input > input[readonly],
+select[readonly],
+fieldset[disabled] .calculator > .content > form > .entry > .input > input,
+fieldset[disabled] select {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+textarea.calculator > .content > form > .entry > .input > input,
+textareaselect {
+  height: auto;
+}

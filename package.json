@@ -1,0 +1,23 @@
+{
+  "name": "valhall",
+  "version": "0.0.1",
+  "description": "Valhall project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "less-loader": "^2.2.3",
+    "webpack": "^1.13.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "extract-text-webpack-plugin": "^1.0.1"
+  }
+}
